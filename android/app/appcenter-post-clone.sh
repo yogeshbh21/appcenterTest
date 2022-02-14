@@ -6,13 +6,13 @@ set -e
 set -x
 
 # Required nodeJS version
-NODE_VERSION=12.22.1
+NODE_VERSION=10.17.0
 
 # workaround to override the v8 alias
 npm config delete prefix
 . ~/.bashrc
 nvm install "$NODE_VERSION"
-nvm alias node12 "$NODE_VERSION"
+nvm alias node10 "$NODE_VERSION"
 
 # go to root of project
 cd ../..
