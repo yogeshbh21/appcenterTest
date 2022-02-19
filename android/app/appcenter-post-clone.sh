@@ -24,4 +24,4 @@ npm i
 npm run build -- --prod
 
 # copy the web assets to the native projects and updates the native plugins and dependencies based in package.json
-npx cap sync
+npx cap add android 
